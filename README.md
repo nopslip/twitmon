@@ -1,9 +1,11 @@
-# twitmon
-poc code for twitter keyword monitoring 
 
 # Twitmon
--- poc code for twitter keyword monitoring  --
+poc code for twitter keyword monitoring
 Using the twitter [streaming API] (https://dev.twitter.com/streaming/public) we gather data and feed it to an Influx DB for trend monitoring and much more.  
+
+Example premise:
+
+**If, we see 25% increase in #satoshi tweets btc price will go up** 
 
 ## Installation
 Clone or donwload the repo then run:
@@ -11,7 +13,7 @@ Clone or donwload the repo then run:
 
 ## Usage
 
-You will need to update twitmon.js file with your twitter API info. Current set up to push data to Influx DB but you could easily update for export to file or other datastores. 
+You will need to update twitmon.js file with your twitter API info. For more information on setting up your Twitter API access you can go [here](https://apps.twitter.com/). Current set up to push data to Influx DB but you could easily update for export to file or other datastores. 
 
 ## Contributing
 
@@ -27,7 +29,7 @@ The idea that patterns in tweet data could be monitored to better understand pri
 
 ## Credits
 
-geode.io team (underground for now) 
+geode.io (underground) 
 
 ## License
 
