@@ -5,7 +5,7 @@ Using the twitter [streaming API] (https://dev.twitter.com/streaming/public) we 
 
 Example premise:
 
-**If, we see 25% increase in #satoshi tweets btc price will go up** 
+**If, we see 25% increase in #satoshi tweets, then btc price will go up** 
 
 ## Installation
 Clone or donwload the repo then run:
