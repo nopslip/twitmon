@@ -7,8 +7,10 @@ Example premise:
 
 **If, we see 25% increase in #satoshi tweets, then btc price will go up** 
 
+As per the Twitter streaming API you can mointor more than one keyword at a time as well. Subsuquent processing should be done in twitmon.js. For example, there are a lot junk tweets tagged with #bitcoin. For this reason we should develop server side filters to sort through the noise.   
+
 ## Installation
-Clone or donwload the repo then run:
+Assuming you have node & NPM installed, clone or donwload the repo then run:
 `npm install` 
 
 ## Usage
